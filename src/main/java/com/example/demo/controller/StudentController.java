@@ -29,7 +29,7 @@ public class StudentController {
 
     @GetMapping("/getStudent/{id}")
     public StudentEntity getStudent(@PathVariable Long id){
-        return ser.getStudent();
+        return ser.getStudent(id);
     }
 
 
