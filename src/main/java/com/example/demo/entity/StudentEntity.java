@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 
 public class StudentEntity{
     @Id
-    @GeneratedValue(stratergy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String email;
@@ -23,7 +23,7 @@ public class StudentEntity{
     }
     
     public StudentEntity(){
-        
+
     }
     
     public void setName(String name){
